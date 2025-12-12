@@ -61,3 +61,4 @@ print(f"{start_time} → {end_time}\n")
 print("Errors per hour:")
 for hour in sorted(errors_by_hour.keys()):
     print(f"{hour}: {errors_by_hour[hour]} errors")
+
